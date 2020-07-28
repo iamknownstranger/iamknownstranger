@@ -1,5 +1,9 @@
 ### Hi there 👋
 
+### I am Chandra Sekhar Mullu
+# I'm a computer science student 
+## I love to build things that change things
+
 <!--
 **iamknownstranger/iamknownstranger** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
