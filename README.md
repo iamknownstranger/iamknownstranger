@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-# I am Chandra Sekhar Mullu
+## I am # Chandra Sekhar Mullu
 ### I'm a computer science student 
 ## I love to build things that change things
 
