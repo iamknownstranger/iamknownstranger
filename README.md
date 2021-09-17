@@ -4,8 +4,7 @@
 ### I love to build things that change things
 #### Here is my sample work
 
-[![Sekhar's GitHub stats](https://github-readme-stats.vercel.app/api?username=iamknownstranger&show_icons=true)
-)](https://github.com/anuraghazra/github-readme-stats)
+[![Sekhar's GitHub stats](https://github-readme-stats.vercel.app/api?username=iamknownstranger&show_icons=true)](https://github.com/anuraghazra/github-readme-stats)
 
 [Distance Calculator Streamlit application](https://share.streamlit.io/iamknownstranger/distance_calculator/main/app.py "Distance Calculator Streamlit app")
 
