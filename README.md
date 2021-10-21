@@ -2,7 +2,6 @@
 
 ## I am Chandra Sekhar Mullu
 ### I love to build things that change things
-#### Here is my sample work
 
 [![Sekhar's GitHub stats](https://github-readme-stats.vercel.app/api?username=iamknownstranger&show_icons=true)](https://github.com/anuraghazra/github-readme-stats)
 
