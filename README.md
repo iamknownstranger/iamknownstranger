@@ -20,12 +20,12 @@ That work involved taking systems from design through to production, including t
 
 If you’re looking through the code, I’d start with the [backtest engine](https://github.com/iamknownstranger/portfolio-pulse/blob/main/common/backtesting.py) and its [regression tests](https://github.com/iamknownstranger/portfolio-pulse/blob/main/tests/test_backtesting_regressions.py). The [methodology notes](https://github.com/iamknownstranger/portfolio-pulse/blob/main/docs/BACKTEST_RESEARCH.md) explain the assumptions.
 
-**[Igloo](https://github.com/igloodb/igloodb)** is an experimental SQL engine I’m working on in Rust, using DataFusion and Arrow. It queries PostgreSQL and Parquet together and caches results in memory. It currently runs in one process; distributed execution and Apache Iceberg integration are still on the roadmap.
+**[Igloo](https://github.com/igloodb/igloodb)** is an experimental SQL engine I built entirely using AI coding tools. It’s written in Rust, which I don’t currently know. The engine uses DataFusion and Arrow. It queries PostgreSQL and Parquet together and caches results in memory. It currently runs in one process; distributed execution and Apache Iceberg integration are still on the roadmap.
 
 One useful part to look at is [filter pushdown](https://github.com/igloodb/igloodb/blob/main/src/pushdown.rs): deciding what can run at the source while preserving the query’s meaning. There are [differential tests](https://github.com/igloodb/igloodb/blob/main/tests/pushdown.rs) for that, along with a [website and docs](https://igloodb.github.io/). Agent interfaces, broader ADBC support, and native CDC foundations are in a [separate draft preview](https://github.com/igloodb/igloodb/pull/32).
 
 ### What I work with
 
-Python, SQL, NumPy, pandas, Polars, SciPy, Ray, Dask, Arrow, PostgreSQL, and Redis. For interfaces, I’ve used Plotly Dash and Streamlit; for delivery, AWS, Linux, Docker, Kubernetes, pytest, and GitHub Actions. My Rust work is in Igloo.
+Python, SQL, NumPy, pandas, Polars, SciPy, Ray, Dask, Arrow, PostgreSQL, and Redis. For interfaces, I’ve used Plotly Dash and Streamlit; for delivery, AWS, Linux, Docker, Kubernetes, pytest, and GitHub Actions.
 
 If you’re building trading tools, research platforms, or market data systems, or want to talk open source, [send me an email](mailto:sekharmullu@gmail.com).
