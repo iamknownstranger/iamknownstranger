@@ -1,6 +1,8 @@
 # Hi, I’m Chandra
 
-I’m a quantitative developer. Most of my work is in Python: risk calculations, data pipelines, and the compute needed to run them.
+I like building things that change things.
+
+I’m a developer working with Python, distributed systems, and data. These days, I’m exploring AI and crypto, and building open-source tools. I’m interested in work closer to the trading desk, especially research tools, market data, and the systems that support trading.
 
 I previously worked in Millennium’s Enterprise Risk Technology team (July 2022–February 2026). Before that, I built AI backend services at Marsview.ai, acquired by Eltropy.
 
@@ -26,4 +28,4 @@ One useful part to look at is [filter pushdown](https://github.com/igloodb/igloo
 
 Python, SQL, NumPy, pandas, Polars, SciPy, Ray, Dask, Arrow, PostgreSQL, and Redis. For interfaces, I’ve used Plotly Dash and Streamlit; for delivery, AWS, Linux, Docker, Kubernetes, pytest, and GitHub Actions. My Rust work is in Igloo.
 
-If you’re hiring for quant development or risk technology, or want to talk through something in these projects, [send me an email](mailto:sekharmullu@gmail.com).
+If you’re building trading tools, research platforms, or market data systems, or want to talk open source, [send me an email](mailto:sekharmullu@gmail.com).
