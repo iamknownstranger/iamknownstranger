@@ -1,36 +1,29 @@
-# Chandra Sekhar Mullu
+# Hi, I’m Chandra
 
-**Quantitative Developer | Risk Technology | Python & Distributed Systems**
+I’m a quantitative developer. Most of my work is in Python: risk calculations, data pipelines, and the compute needed to run them.
 
-I build systems for financial risk calculations, portfolio research, and data-intensive applications. Previously a Quantitative Developer in Millennium's Enterprise Risk Technology team (July 2022 - February 2026); before that, an AI Backend Engineer at Marsview.ai, acquired by Eltropy.
+I previously worked in Millennium’s Enterprise Risk Technology team (July 2022–February 2026). Before that, I built AI backend services at Marsview.ai, acquired by Eltropy.
 
-[Portfolio](https://iamknownstranger.github.io/) · [LinkedIn](https://www.linkedin.com/in/chandra-sekhar-mullu/) · [Email](mailto:sekharmullu@gmail.com)
+[My website](https://iamknownstranger.github.io/) · [LinkedIn](https://www.linkedin.com/in/chandra-sekhar-mullu/) · [Email me](mailto:sekharmullu@gmail.com)
 
-### Production experience
+### What I’ve worked on
 
-- **Risk computation:** designed and built a distributed stress-calculation framework spanning 2M+ positions and 4,000 scenarios.
-- **Developer infrastructure:** built a data-orchestration library adopted by 100+ developers and on-demand Ray/Dask cluster provisioning with resource quotas and cost-aware autoscaling.
-- **Data delivery:** implemented event-driven ETL for risk reporting, reducing reporting SLAs by three hours; built an Apache Arrow-based calculation library with Python and Java bindings.
+At Millennium, I designed and built a distributed stress-calculation framework covering 2M+ positions and 4,000 scenarios. I also worked on on-demand Ray/Dask clusters, an Arrow-based risk calculation library with Python and Java bindings, and a data-orchestration library used by more than 100 developers.
 
-### Selected public work
+That work involved taking systems from design through to production, including the data pipelines and interfaces people used to get the results.
 
-| Project | What it demonstrates | Explore |
-| --- | --- | --- |
-| **Portfolio Pulse** | Python portfolio analytics, risk metrics, constrained allocation, and cost-aware backtesting. Explicit execution timing, cash accounting, and walk-forward validation. | [Code](https://github.com/iamknownstranger/portfolio-pulse) · [Research methodology](https://github.com/iamknownstranger/portfolio-pulse/blob/main/docs/BACKTEST_RESEARCH.md) · [Regression tests](https://github.com/iamknownstranger/portfolio-pulse/blob/main/tests/test_backtesting_regressions.py) |
-| **Igloo** | Experimental Rust SQL engine using DataFusion and Arrow: PostgreSQL/Parquet federation, conservative filter pushdown, PostgreSQL wire protocol, and an in-memory LRU/TTL result cache. | [Code](https://github.com/igloodb/igloodb) · [Website & docs](https://igloodb.github.io/) · [Pushdown implementation](https://github.com/igloodb/igloodb/blob/main/src/pushdown.rs) |
+### What I’m building here
 
-**Scope matters:** Portfolio Pulse is a research application with hypothetical results, not a live trading system. Igloo's default branch is single-node; distributed execution and Apache Iceberg integration are roadmap work. Its agent/ADBC/native-CDC work is a separate [draft preview](https://github.com/igloodb/igloodb/pull/32).
+**[Portfolio Pulse](https://github.com/iamknownstranger/portfolio-pulse)** is where I work on portfolio analytics and backtesting in Python. The calculations live separately from the Streamlit interface so I can test them on their own. The backtest tracks execution timing, costs, cash, and holdings; it’s a research tool with simulated trades.
 
-### Technical focus
+If you’re looking through the code, I’d start with the [backtest engine](https://github.com/iamknownstranger/portfolio-pulse/blob/main/common/backtesting.py) and its [regression tests](https://github.com/iamknownstranger/portfolio-pulse/blob/main/tests/test_backtesting_regressions.py). The [methodology notes](https://github.com/iamknownstranger/portfolio-pulse/blob/main/docs/BACKTEST_RESEARCH.md) explain the assumptions.
 
-- **Quant & research:** Python, SQL, NumPy, pandas, Polars, SciPy, portfolio/risk analytics, Plotly Dash, Streamlit.
-- **Compute & data:** Ray, Dask, event-driven ETL, Apache Arrow, PostgreSQL, Redis; Rust and DataFusion in Igloo.
-- **Delivery:** AWS, Linux, Docker, Kubernetes, pytest, GitHub Actions.
+**[Igloo](https://github.com/igloodb/igloodb)** is an experimental SQL engine I’m working on in Rust, using DataFusion and Arrow. It queries PostgreSQL and Parquet together and caches results in memory. It currently runs in one process; distributed execution and Apache Iceberg integration are still on the roadmap.
 
-### A useful starting point for a technical conversation
+One useful part to look at is [filter pushdown](https://github.com/igloodb/igloodb/blob/main/src/pushdown.rs): deciding what can run at the source while preserving the query’s meaning. There are [differential tests](https://github.com/igloodb/igloodb/blob/main/tests/pushdown.rs) for that, along with a [website and docs](https://igloodb.github.io/). Agent interfaces, broader ADBC support, and native CDC foundations are in a [separate draft preview](https://github.com/igloodb/igloodb/pull/32).
 
-- **Research correctness:** [Backtest engine](https://github.com/iamknownstranger/portfolio-pulse/blob/main/common/backtesting.py) - signals at close t execute at the next common close, with self-funded transaction costs and an execution ledger.
-- **Query correctness:** [Pushdown tests](https://github.com/igloodb/igloodb/blob/main/tests/pushdown.rs) - compare pushed and unpushed results; exclude string ordering where PostgreSQL collation can disagree with Arrow.
-- **Cache design:** [Arrow-native cache](https://github.com/igloodb/igloodb/blob/main/src/cache_layer.rs) - bounded entry count, TTL, shared record batches, and deterministic clock-based tests.
+### What I work with
 
-For quant-development and risk-technology conversations: **[sekharmullu@gmail.com](mailto:sekharmullu@gmail.com)**.
+Python, SQL, NumPy, pandas, Polars, SciPy, Ray, Dask, Arrow, PostgreSQL, and Redis. For interfaces, I’ve used Plotly Dash and Streamlit; for delivery, AWS, Linux, Docker, Kubernetes, pytest, and GitHub Actions. My Rust work is in Igloo.
+
+If you’re hiring for quant development or risk technology, or want to talk through something in these projects, [send me an email](mailto:sekharmullu@gmail.com).
