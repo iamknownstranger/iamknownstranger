@@ -1,24 +1,36 @@
-<h1 align="center">Hi 👋, I'm Chandra Sekhar Mullu</h1>
-<h3 align="center">A passionate python developer from India. I love to building things that change things</h3>
+# Chandra Sekhar Mullu
 
-- 🌱 I’m currently learning **Quantitative development**
+**Quantitative Developer | Risk Technology | Python & Distributed Systems**
 
-- 💬 Ask me about **Life and Technology**
+I build systems for financial risk calculations, portfolio research, and data-intensive applications. Previously a Quantitative Developer in Millennium's Enterprise Risk Technology team (July 2022 - February 2026); before that, an AI Backend Engineer at Marsview.ai, acquired by Eltropy.
 
-- 📫 How to reach me **sekharmullu@gmail.com**
+[Portfolio](https://iamknownstranger.github.io/) · [LinkedIn](https://www.linkedin.com/in/chandra-sekhar-mullu/) · [Email](mailto:sekharmullu@gmail.com)
 
-- ⚡ Fun fact **You know? Chai comes before Coffee in the dictionary**
+### Production experience
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/chandra-sekhar-mullu" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="chandra-sekhar-mullu" height="30" width="40" /></a>
-</p>
+- **Risk computation:** designed and built a distributed stress-calculation framework spanning 2M+ positions and 4,000 scenarios.
+- **Developer infrastructure:** built a data-orchestration library adopted by 100+ developers and on-demand Ray/Dask cluster provisioning with resource quotas and cost-aware autoscaling.
+- **Data delivery:** implemented event-driven ETL for risk reporting, reducing reporting SLAs by three hours; built an Apache Arrow-based calculation library with Python and Java bindings.
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://aws.amazon.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/> </a> <a href="https://azure.microsoft.com/en-in/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg" alt="azure" width="40" height="40"/> </a> <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="bash" width="40" height="40"/> </a> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a> <a href="https://flask.palletsprojects.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg" alt="flask" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://kubernetes.io" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/kubernetes/kubernetes-icon.svg" alt="kubernetes" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://postman.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://redis.io" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original-wordmark.svg" alt="redis" width="40" height="40"/> </a> </p>
+### Selected public work
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=iamknownstranger&show_icons=true&locale=en&layout=compact" alt="iamknownstranger" /></p>
+| Project | What it demonstrates | Explore |
+| --- | --- | --- |
+| **Portfolio Pulse** | Python portfolio analytics, risk metrics, constrained allocation, and cost-aware backtesting. Explicit execution timing, cash accounting, and walk-forward validation. | [Code](https://github.com/iamknownstranger/portfolio-pulse) · [Research methodology](https://github.com/iamknownstranger/portfolio-pulse/blob/main/docs/BACKTEST_RESEARCH.md) · [Regression tests](https://github.com/iamknownstranger/portfolio-pulse/blob/main/tests/test_backtesting_regressions.py) |
+| **Igloo** | Experimental Rust SQL engine using DataFusion and Arrow: PostgreSQL/Parquet federation, conservative filter pushdown, PostgreSQL wire protocol, and an in-memory LRU/TTL result cache. | [Code](https://github.com/igloodb/igloodb) · [Website & docs](https://igloodb.github.io/) · [Pushdown implementation](https://github.com/igloodb/igloodb/blob/main/src/pushdown.rs) |
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=iamknownstranger&show_icons=true&locale=en" alt="iamknownstranger" /></p>
+**Scope matters:** Portfolio Pulse is a research application with hypothetical results, not a live trading system. Igloo's default branch is single-node; distributed execution and Apache Iceberg integration are roadmap work. Its agent/ADBC/native-CDC work is a separate [draft preview](https://github.com/igloodb/igloodb/pull/32).
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=iamknownstranger&" alt="iamknownstranger" /></p>
+### Technical focus
+
+- **Quant & research:** Python, SQL, NumPy, pandas, Polars, SciPy, portfolio/risk analytics, Plotly Dash, Streamlit.
+- **Compute & data:** Ray, Dask, event-driven ETL, Apache Arrow, PostgreSQL, Redis; Rust and DataFusion in Igloo.
+- **Delivery:** AWS, Linux, Docker, Kubernetes, pytest, GitHub Actions.
+
+### A useful starting point for a technical conversation
+
+- **Research correctness:** [Backtest engine](https://github.com/iamknownstranger/portfolio-pulse/blob/main/common/backtesting.py) - signals at close t execute at the next common close, with self-funded transaction costs and an execution ledger.
+- **Query correctness:** [Pushdown tests](https://github.com/igloodb/igloodb/blob/main/tests/pushdown.rs) - compare pushed and unpushed results; exclude string ordering where PostgreSQL collation can disagree with Arrow.
+- **Cache design:** [Arrow-native cache](https://github.com/igloodb/igloodb/blob/main/src/cache_layer.rs) - bounded entry count, TTL, shared record batches, and deterministic clock-based tests.
+
+For quant-development and risk-technology conversations: **[sekharmullu@gmail.com](mailto:sekharmullu@gmail.com)**.
